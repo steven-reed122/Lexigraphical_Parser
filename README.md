@@ -35,7 +35,7 @@ The valid characters that can be parsed are as follows (it is case sensitive and
 - ","           -> [COMMA]
 - ";"           -> [SEMI]
 - "integer*"    -> [INT_CONST]
-- "identifiers*" -> [IDENT]
+- "identifiers*"-> [IDENT]
 
 * integer is any uniterrupted string of digits
 * identifier is any uninterrupted string of alphanumeric characters, they must begin with a letter

@@ -1,0 +1,48 @@
+This is sample text.
+It should print out line by line. 
+Hopefully it works! ;)
+if (
+if int
+while
+w
+wh
+whi
+i
+in
+for
+f
+fo
+procedure
+p
+pr
+pro
+proc
+proce
+proced
+procedu
+procedur
+return
+r
+re
+ret
+retu
+retur
+else
+elseeeee
+
+do
+d
+dooooo
+break
+br
+end
+en
+12345
+2135
+2413
+123456789
+8985&
+8=1+7
+=-][><{{}}
+8 =
+8=
