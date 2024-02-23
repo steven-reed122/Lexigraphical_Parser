@@ -13,7 +13,6 @@ public class Lexer_main {
 		String fileName = scanner.nextLine();
 		scanner.close();
 		fileReader(fileName);
-		
 	}
 	
 	public static void fileReader(String fileName) {
