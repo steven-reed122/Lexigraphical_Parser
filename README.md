@@ -1,5 +1,5 @@
 # Basic Language Lexical Analyzer
-Takes a string of characters and parses it lexigraphically into a stream of tokens which it prints as the output. This could be used as the first step in the compilation of a simple programming language.
+Takes a string of characters from a specified file and parses it lexigraphically into a stream of tokens which it prints as the output. This could be used as the first step in the compilation of a simple programming language.
 
 The valid characters that can be parsed are as follows (it is case sensitive and "qoutations" are should be not present in real code, they are for formatting and readability purposes in this document):
 
@@ -39,3 +39,5 @@ The valid characters that can be parsed are as follows (it is case sensitive and
 
 * integer is any uniterrupted string of digits
 * identifier is any uninterrupted string of alphanumeric characters, they must begin with a letter
+
+To run this file just open it in a java environment. "testcase.txt" is a provided test for the program.
