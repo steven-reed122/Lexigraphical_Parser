@@ -1,4 +1,4 @@
-package lexer_package;
+package Lexer
 
 import java.util.Scanner;
 import java.io.File;
@@ -13,6 +13,7 @@ public class Lexer_main {
 		String fileName = scanner.nextLine();
 		scanner.close();
 		fileReader(fileName);
+		
 	}
 	
 	public static void fileReader(String fileName) {
@@ -270,7 +271,7 @@ public class Lexer_main {
 	        i++;
 	    }
 	    if (Character.isLetter(chNext)) {
-	    	System.err.println("[IDENT] must begin with a letter");
+	    	System.out.println("[IDENT] must begin with a letter");
 	        return i-1;
 	    }
 	    return i-1;
@@ -289,4 +290,6 @@ public class Lexer_main {
 	}
 	
 }
+
+
 
