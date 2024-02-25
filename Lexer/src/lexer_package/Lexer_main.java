@@ -1,4 +1,4 @@
-package Lexer
+package lexer_package;
 
 import java.util.Scanner;
 import java.io.File;
